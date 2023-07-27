@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,400&display=swap');
+.center{
+    text-align: center;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(7, 7, 7);
+}
+h1:hover{
+    cursor: pointer;
+    text-shadow: 6px 5px 2px rgb(251, 119, 119); 
+}
+.container{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 100px; */
+}
+
+.btn{
+    font-size: 15px;
+    padding: 20px;
+    margin: 0px 3px;
+    border: 2px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 73px;
+    color: rgb(9, 9, 8);
+    background-color: rgb(243, 140, 102);
+    padding-left: 16px;
+   
+}
+.btn:hover{
+    color: red;
+    background-color: black;
+    border-color: aqua;
+    /* box-shadow: 6px 5px 2px rgb(251, 119, 119) */
+}
+.row{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.row input{
+    border: 2px solid rgb(243, 31, 31);
+    border-radius: 10px;
+    padding: 21px 80px;
+}
+.row input:hover{
+   box-shadow: 5px 5px 2px red;
+   border: 2px solid black;
+}
+input[type='text']{
+    /* padding: 7px; */
+    text-align: center;
+    /* border: 2px solid red; */
+}
+body{
+    background-color: black;
+    background-image: url('trude-jonsson-stangel--tYRSdGqLNs-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
